@@ -3,9 +3,9 @@ $servername = "mysqlant:3306";
 $username = "user33R";
 $password = "xXnhSQpiBaJIeL8u";
 
-// Create connection
-
 echo "test"
+
+// Create connection
 
 $conn = new mysqli($servername, $username, $password);
 
