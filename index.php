@@ -1,9 +1,12 @@
 <?php
-$servername = "127.0.0.1:3306";
+$servername = "mysqlant:3306";
 $username = "user33R";
 $password = "xXnhSQpiBaJIeL8u";
 
 // Create connection
+
+echo "test"
+
 $conn = new mysqli($servername, $username, $password);
 
 // Check connection
