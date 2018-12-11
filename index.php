@@ -1,16 +1,5 @@
 <?php
-$servername = "mysqlant:3306";
-$username = "user33R";
-$password = "xXnhSQpiBaJIeL8u";
-
-
-// Create connection
-
-$conn = new mysqli($servername, $username, $password);
-
-// Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-} 
-echo "Connected successfully";
-?>
+echo "Welcome to OpenShift Online Developer Preview";
+echo "<br>To test the database, hit the dbtest.php URL";
+echo "<br><br>This assumes that you have the correct env variables set";
+echo "<BR><BR>The environment variables required are databaseuser, databasepassword, and databasenmae.";
